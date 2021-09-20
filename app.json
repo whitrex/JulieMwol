@@ -1,14 +1,14 @@
 {
-    "name": "JulieMwol 2️⃣",
-    "description": "JulieMwol - Whatsapp Bot",
-    "logo": "https://i.imgur.com/ADXSU8e.jpeg",
+    "name": "Dumi bot",
+    "description": "This bot is my testing whatsapp bot- Whatsapp Bot",
+    "logo": "https://i.ibb.co/yYM3g5k/20210917-173138.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/farhan-dqz-Julie/Mwol",
+    "repository": "https://github.com/whitrex/JulieMwol",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "Dumi qr_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
@@ -17,24 +17,24 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru",
+            "description": "Bot language. Sinhala => si, English => en",
             "required": true,
-            "value": "en"
+            "value": "si"
         },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-            "value": "true"
+            "value": "false"
         },
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-            "value": "true"
+            "value": "false"
         },
         "ANTİ_LİNK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "AUTO_BİO": {
             "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
@@ -116,7 +116,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
+            "value": "hey bro,I'm alive"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
