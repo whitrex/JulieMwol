@@ -1,5 +1,5 @@
 {
-    "name": "Dumi bot",
+    "name": "whitrex bot",
     "description": "This bot is my testing whatsapp bot- Whatsapp Bot",
     "logo": "https://i.ibb.co/yYM3g5k/20210917-173138.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
@@ -8,7 +8,7 @@
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "Dumi qr_SESSION": {
+        "D qr_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
