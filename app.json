@@ -1,14 +1,14 @@
 {
-    "name": "JulieMwol 2️⃣",
-    "description": "JulieMwol - Whatsapp Bot",
-    "logo": "https://i.imgur.com/ADXSU8e.jpeg",
+    "name": "Dumi Bot 2️⃣",
+    "description": "Dumi Bot - Whatsapp Bot",
+    "logo": "https://i.ibb.co/yYM3g5k/20210917-173138.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/farhan-dqz-Julie/Mwol",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "DUMI_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
