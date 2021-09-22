@@ -680,7 +680,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [DUMI BOT🤔] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _SQL Database Error_' +
                                         '\n*Nedeni:* _Database\'in bozulması._ ' +
@@ -789,7 +789,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻 Maalesef Bu Hatayı Okuyamadım! 🙇🏻*' +
-                                        '\n_Daha fazla yardım için grubumuza yazabilirsiniz https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX ._'
+                                        '\n_Daha fazla yardım için grubumuza yazabilirsiniz https://chat.whatsapp.com/FpJEPYVPtHv463uy66c5Bi ._'
                                         , MessageType.text
                                     );
                                 }
@@ -799,7 +799,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n*White Dragon an error has occurred!*'+
                                     '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
                                     '\n*You can write to our Telegram group for help.*' +
-                                    '\n*Aslo you can join our support group:* https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX' +
+                                    '\n*Aslo you can join our support group:* https://chat.whatsapp.com/FpJEPYVPtHv463uy66c5Bi' +
                                     '\n*This message should have gone to your number (saved messages).*\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
@@ -923,7 +923,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
-                                        '\n_You can write to our support group for more help https://chat.whatsapp.com/La5MMeWqcLK0Msq50LvnqX_'
+                                        '\n_You can write to our support group for more help https://chat.whatsapp.com/FpJEPYVPtHv463uy66c5Bi'
                                         , MessageType.text
                                     );
                                 }    
